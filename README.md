@@ -73,17 +73,16 @@ This approach enhances reusability, maintainability, and scalability. Each compo
 useWindowDimensions is used to dynamically adjust the number of columns in the FlatList based on the device's screen width, providing an optimal viewing experience across various devices (phones, tablets, web).
 
 Major Project Structure
-.
-├── assets/                  // Fonts, images
-├── components/              // Reusable UI components (ProductCard, Themed, navigation buttons)
-├── context/                 // ProductContext (ProductContext.tsx)
-├── app/                     // Expo Router routes
-│   ├── (tabs)/              // Tab navigator group
-│   │   ├── _layout.tsx      // Defines the Tabs layout
-│   │   ├── index.tsx        // ProductListScreen (main product listing)
-│   │   └── two.tsx          // Placeholder tab screen (e.g., Profile)
-│   ├── _layout.tsx          // Root app layout, providers, global stack navigator
-│   └── modal.tsx            // Example modal screen (e.g., shopping cart)
+.                
+├── components/             
+├── context/                
+├── app/                   
+│   ├── (tabs)/            
+│   │   ├── _layout.tsx     
+│   │   ├── index.tsx       
+│   │   └── two.tsx         
+│   ├── _layout.tsx         
+│   └── modal.tsx          
 └── ... other config files (package.json, tsconfig.json, etc.)
 How to Run the Project
 Clone the repository:
