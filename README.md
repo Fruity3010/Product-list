@@ -1,4 +1,4 @@
-README.md
+
 E-commerce Product Listing App
 Project Title
 Create an e-commerce product listing page using React Native, incorporating filtering, sorting, and pagination functionalities.
