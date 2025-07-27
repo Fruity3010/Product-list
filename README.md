@@ -113,6 +113,3 @@ Scan the QR code with the Expo Go app (iOS or Android).
 Run on an iOS simulator or Android emulator.
 
 Run in a web browser (w in the terminal).
-
-Demonstration
-A demonstration video showcasing the app's key features, responsiveness, and user interactions will be provided with the submission.
